@@ -243,7 +243,7 @@ const projects = [
   {
     name: "FilmSpot",
     description:
-      "A movie recognition and recommendation app that allows users to search for movies, get the details of the movie, add to library, and also get recommendations of similar movies (without the use of external APIs - currently on IOS store).",
+      "A movie recognition and recommendation mobile app to search for movies, get the details of the movie, add to library, and also get recommendations (without the use of external APIs - currently on IOS store).",
     tags: [
       {
         name: "react native",
@@ -281,7 +281,7 @@ const projects = [
   {
     name: "WorkHub",
     description:
-      "WorkHub is a modern freelance marketplace web application inspired by platforms like Fiverr. It enables users to register as buyers or sellers, create and manage gigs, place orders, exchange messages in real-time, and collaborate efficiently. It has a timed deadline counter that is used to show how much time is left for a seller to deliver an order. The counter updates in real-time (counting down seconds, minutes, hours, or days) and helps both buyers and sellers track progress and meet deadlines efficiently.",
+      "WorkHub is a freelance marketplace web-app where users can buy or sell services, manage gigs, chat in real-time, and track orders with a 'live deadline counter' ",
     tags: [
       {
         name: "reactJS",
