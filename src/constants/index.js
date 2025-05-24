@@ -63,7 +63,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI Engineer",
     icon: backend,
   },
   {
@@ -196,7 +196,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Favour does.",
+      "I've never met a developer who truly cares about their clients' success like Favour does.",
     name: "Grace Ife",
     designation: "COO",
     company: "DEF Corp",
