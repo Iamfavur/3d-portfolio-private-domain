@@ -28,6 +28,7 @@ import {
   filmspot,
   ecommerce,
   workhub,
+  lipreadingAI,
 } from "../assets";
 
 import testimony1 from "../assets/testimonies/John-Ogba-Ifeakanwa.jpg";
@@ -312,7 +313,6 @@ const projects = [
     source_code_link: "https://github.com/Iamfavur/workhub-frontend",
     link_to_site: "https://workhub-frontend-git-main-iamfavurs-projects.vercel.app/",
   },
-
   {
     name: "E-commerce Store",
     description:
@@ -334,6 +334,40 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://github.com/Iamfavur/Ecommerce",
     link_to_site: "https://iamfavur.github.io/Ecommerce/",
+  },
+  {
+    name: "Lip Reading AI",
+    description:
+      "A deep learning project for visual speech recognition that predicts spoken text from video of a speaker's mouth (lip reading), using a neural network based on LipNet.",
+    tags: [
+      {
+        name: "TensorFlow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "matplotlib",
+        color: "green-text-gradient",
+      },
+      {
+        name: "imageio",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Pillow",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lipreadingAI,
+    source_code_link: "https://github.com/Iamfavur/lip-reading-AI",
+    link_to_site: "#",
   },
 ];
 

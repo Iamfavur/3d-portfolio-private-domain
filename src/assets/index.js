@@ -34,6 +34,7 @@ import cryptoworld from "./Projects-done-images/cryptoWorld.png";
 import filmspot from "./Projects-done-images/filmspot.png";
 import ecommerce from "./Projects-done-images/e-commerce.png";
 import workhub from "./Projects-done-images/workhub.png";
+import lipreadingAI from "./Projects-done-images/lipreadingAI.jpg";
 
 export {
   logo,
@@ -68,4 +69,5 @@ export {
   filmspot,
   ecommerce,
   workhub,
+  lipreadingAI,
 };
