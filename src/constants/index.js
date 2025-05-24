@@ -24,15 +24,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  cryptoworld,
+  filmspot,
+  ecommerce,
+  workhub,
 } from "../assets";
 
 import testimony1 from "../assets/testimonies/John-Ogba-Ifeakanwa.jpg";
 import testimony2 from "../assets/testimonies/Durosinmi-Etti-1062x598.jpg";
 import testimony3 from "../assets/testimonies/man2.avif";
 
-import project1 from "../assets/Projects-done-images/cryptoWorld.png";
-import project2 from "../assets/Projects-done-images/filmspot.png";
-import project3 from "../assets/Projects-done-images/e-commerce.png";
 
 import experience1 from "../assets/experience-icons/fiverr.png";
 import experience2 from "../assets/experience-icons/upwork.png";
@@ -235,14 +236,14 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: project1,
+    image: cryptoworld,
     source_code_link: "https://github.com/Iamfavur/CryptoWorld",
     link_to_site: "https://iamfavur.github.io/CryptoWorld/",
   },
   {
     name: "FilmSpot",
     description:
-      "A movie recognition and recommendation app that allows users to search for movies, get the details of the movie, add to library, and also get recommendations of similar movies (without the use of external APIs).",
+      "A movie recognition and recommendation app that allows users to search for movies, get the details of the movie, add to library, and also get recommendations of similar movies (without the use of external APIs - currently on IOS store).",
     tags: [
       {
         name: "react native",
@@ -273,10 +274,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
+    image: filmspot,
     source_code_link: "#",
     link_to_site: "https://filmspot-download.vercel.app/",
   },
+  {
+    name: "WorkHub",
+    description:
+      "WorkHub is a modern freelance marketplace web application inspired by platforms like Fiverr. It enables users to register as buyers or sellers, create and manage gigs, place orders, exchange messages in real-time, and collaborate efficiently. It has a timed deadline counter that is used to show how much time is left for a seller to deliver an order. The counter updates in real-time (counting down seconds, minutes, hours, or days) and helps both buyers and sellers track progress and meet deadlines efficiently.",
+    tags: [
+      {
+        name: "reactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressJS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Websocket",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: workhub,
+    source_code_link: "https://github.com/Iamfavur/workhub-frontend",
+    link_to_site: "https://workhub-frontend-git-main-iamfavurs-projects.vercel.app/",
+  },
+
   {
     name: "E-commerce Store",
     description:
@@ -295,7 +331,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
+    image: ecommerce,
     source_code_link: "https://github.com/Iamfavur/Ecommerce",
     link_to_site: "https://iamfavur.github.io/Ecommerce/",
   },

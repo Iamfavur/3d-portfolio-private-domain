@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cryptoworld from "./Projects-done-images/cryptoWorld.png";
+import filmspot from "./Projects-done-images/filmspot.png";
+import ecommerce from "./Projects-done-images/e-commerce.png";
+import workhub from "./Projects-done-images/workhub.png";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  cryptoworld,
+  filmspot,
+  ecommerce,
+  workhub,
 };
