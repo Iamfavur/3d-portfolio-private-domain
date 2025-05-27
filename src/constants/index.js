@@ -313,28 +313,28 @@ const projects = [
     source_code_link: "https://github.com/Iamfavur/workhub-frontend",
     link_to_site: "https://workhub-frontend-git-main-iamfavurs-projects.vercel.app/",
   },
-  {
-    name: "E-commerce Store",
-    description:
-      "An E-commerce store that display the list of available products and their details when the user click on the product, with the ability to add products to cart, check out, clear cart or continue shopping.",
-    tags: [
-      {
-        name: "reactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecommerce,
-    source_code_link: "https://github.com/Iamfavur/Ecommerce",
-    link_to_site: "https://iamfavur.github.io/Ecommerce/",
-  },
+  // {
+  //   name: "E-commerce Store",
+  //   description:
+  //     "An E-commerce store that display the list of available products and their details when the user click on the product, with the ability to add products to cart, check out, clear cart or continue shopping.",
+  //   tags: [
+  //     {
+  //       name: "reactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ecommerce,
+  //   source_code_link: "https://github.com/Iamfavur/Ecommerce",
+  //   link_to_site: "https://iamfavur.github.io/Ecommerce/",
+  // },
   {
     name: "Lip Reading AI",
     description:
@@ -369,6 +369,7 @@ const projects = [
     source_code_link: "https://github.com/Iamfavur/lip-reading-AI",
     link_to_site: "#",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

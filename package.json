@@ -2,7 +2,7 @@
   "homepage": "http://Iamfavur.github.io/3d-portfolio-private-domain",
   "name": "3d-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
