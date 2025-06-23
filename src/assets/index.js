@@ -35,6 +35,8 @@ import filmspot from "./Projects-done-images/filmspot.png";
 import ecommerce from "./Projects-done-images/e-commerce.png";
 import workhub from "./Projects-done-images/workhub.png";
 import lipreadingAI from "./Projects-done-images/lipreadingAI.jpg";
+import calebAndBrown from "./Projects-done-images/calebAndBrown.png";
+
 
 export {
   logo,
@@ -70,4 +72,5 @@ export {
   ecommerce,
   workhub,
   lipreadingAI,
+  calebAndBrown
 };

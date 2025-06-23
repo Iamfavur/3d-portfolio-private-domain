@@ -29,6 +29,7 @@ import {
   ecommerce,
   workhub,
   lipreadingAI,
+  calebAndBrown,
 } from "../assets";
 
 import testimony1 from "../assets/testimonies/John-Ogba-Ifeakanwa.jpg";
@@ -65,11 +66,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "AI Engineer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Fullstack Developer",
+    title: "AI Engineer",
     icon: creator,
   },
 ];
@@ -335,41 +336,63 @@ const projects = [
   //   source_code_link: "https://github.com/Iamfavur/Ecommerce",
   //   link_to_site: "https://iamfavur.github.io/Ecommerce/",
   // },
+  // {
+  //   name: "Lip Reading AI",
+  //   description:
+  //     "A deep learning project for visual speech recognition that predicts spoken text from video of a speaker's mouth (lip reading), using a neural network based on LipNet.",
+  //   tags: [
+  //     {
+  //       name: "TensorFlow",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Streamlit",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "OpenCV",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "matplotlib",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "imageio",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Pillow",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: lipreadingAI,
+  //   source_code_link: "https://github.com/Iamfavur/lip-reading-AI",
+  //   link_to_site: "#",
+  // },
   {
-    name: "Lip Reading AI",
+    name: "Caleb and Brown",
     description:
-      "A deep learning project for visual speech recognition that predicts spoken text from video of a speaker's mouth (lip reading), using a neural network based on LipNet.",
+      "A web application that allows users to buy and sell cryptocurrencies, view their portfolio, and track market trends. It features a user-friendly interface, real-time data updates, and secure transactions.",
     tags: [
       {
-        name: "TensorFlow",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Streamlit",
+        name: "web3.js",
         color: "green-text-gradient",
       },
       {
-        name: "OpenCV",
+        name: "Solidity",
         color: "pink-text-gradient",
-      },
-      {
-        name: "matplotlib",
-        color: "green-text-gradient",
-      },
-      {
-        name: "imageio",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Pillow",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: lipreadingAI,
-    source_code_link: "https://github.com/Iamfavur/lip-reading-AI",
-    link_to_site: "#",
+    image: calebAndBrown,
+    source_code_link: "#",
+    link_to_site: "https://calebandbrown.com/",
   },
-  
-];
 
+];
+// i had to comment out a project because from 5 projects and above, the work section was not displaying at all on mobile screens. I will try to fix this issue later on.
 export { services, technologies, experiences, testimonials, projects };
